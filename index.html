@@ -13,42 +13,50 @@
     <header class="flex-container header">
         <div class="logo">Mental Health NGO</div>
         <nav class="flex-container nav">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main class="grid-container">
-        <section class="grid-item introduction">
+        <section id="home" class="grid-item introduction">
             <h2>Welcome</h2>
+            <img src="images/welcome.png" alt="Welcome Image" class="responsive-image">
             <p>Our mission is to advocate for mental health and make mental health services accessible for
                 underrepresented groups. We believe in the power of community and support for everyone.</p>
+            <button class="btn get-involved">Get Involved</button>
+            <button class="btn donate">Donate</button>
         </section>
-        <section class="grid-item features">
+        <section id="About" class="grid-item features">
             <h2>What We Do</h2>
             <ul>
-                <li>Provide free mental health counseling</li>
-                <li>Offer workshops and support groups</li>
-                <li>Advocate for mental health awareness</li>
+                <li><img src="icons/counselling.svg" alt="Counseling Icon" class="icon"> Provide free mental health
+                    counseling</li>
+                <li><img src="icons/workshop.svg" alt="Workshops Icon" class="icon"> Offer workshops and support groups
+                </li>
+                <li><img src="icons/advocacy.svg" alt="Advocacy Icon" class="icon"> Advocate for mental health awareness
+                </li>
             </ul>
         </section>
-        <section class="grid-item services">
+        <section id="services" class="grid-item services">
             <h2>Our Services</h2>
+            <img src="images/services.png" alt="Services Image" class="responsive-image">
             <p>We offer a range of services to help you achieve better mental health. Our services are free and open to
                 all, especially underrepresented groups who may not have access to mental health resources.</p>
         </section>
         <section class="grid-item contact">
             <h2>Contact Us</h2>
+            <img src="images/contact.png" alt="Contact Image" class="responsive-image">
             <p>If you need support or want to get involved, please contact us at:</p>
             <p>Email: support@mentalhealthngo.org</p>
             <p>Phone: +123-456-7890</p>
         </section>
     </main>
-    <footer class="flex-container footer">
+    <footer id="contact" class="flex-container footer">
         <p>&copy; 2024 Mental Health NGO</p>
         <a href="https://github.com/TechPsychee/IT537-2024-Assignment-1/tree/IT537_00034810" target="_blank">
-            github<img src="github.svg" alt="GitHub">
+            GitHub<img src="icons/github.svg" alt="GitHub">
         </a>
     </footer>
 </body>

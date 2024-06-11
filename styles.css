@@ -88,3 +88,40 @@ footer a {
 footer a:hover {
     color: #ffd6a5;
 }
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn.get-involved {
+    background-color: #9bf6ff;
+}
+
+.btn.donate {
+    background-color: #ffadad;
+}
