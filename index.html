@@ -4,75 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Repo Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>IT537 - Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="header-content">
-            <h1>IT537</h1>
-            <span class="visibility">Public</span>
-            <div class="actions">
-                <button>Watch</button>
-                <button>Fork</button>
-                <button>Star</button>
-            </div>
+        <div class="header-left">
+            <img src="github-icon.png" alt="GitHub Icon" class="github-icon">
+            <h1>mkaanilhan / IT537</h1>
+        </div>
+        <div class="header-right">
+            <button class="header-button"><img src="code2.svg" alt="Code"> Code</button>
+            <button class="header-button"><img src="alert-circle.svg" alt="Issues"> Issues</button>
+            <button class="header-button"><img src="git-pull-request.svg" alt="Pull Request"> Pull Request</button>
+            <button class="header-button"><img src="activity.svg" alt="Actions"> Actions</button>
+            <button class="header-button"><img src="briefcase.svg" alt="Projects"> Projects</button>
+            <button class="header-button"><img src="book.svg" alt="Wiki"> Wiki</button>
+            <button class="header-button"><img src="shield.svg" alt="Security"> Security</button>
+            <button class="header-button"><img src="bar-chart-2.svg" alt="Insight"> Insight</button>
+            <button class="header-button"><img src="settings.svg" alt="Settings"> Settings</button>
         </div>
     </header>
-    <main class="main-content">
+
+    <main>
+        <section class="repo-details">
+            <h2>IT537</h2>
+            <span class="public-badge">Public</span>
+        </section>
+
+        <section class="branches">
+            <span>master</span>
+            <span>3 branches</span>
+            <span>0 tags</span>
+        </section>
+
         <section class="file-list">
             <div class="file-header">
-                <h2>Files</h2>
-                <button>Add File</button>
+                <span>Commit</span>
+                <span>Time</span>
             </div>
             <div class="file-grid">
-                <div class="file">
-                    <span class="file-name">chicago.avif</span>
-                    <span class="file-details">28.05 - HTML basics, block elements, inline elements</span>
+                <div class="file-row">
+                    <span>chicago.avif</span>
+                    <span>28.05 - HTML basics, block elements, inline elements</span>
+                    <span>2 weeks ago</span>
                 </div>
-                <div class="file">
-                    <span class="file-name">detroit.avif</span>
-                    <span class="file-details">28.05 - HTML basics, block elements, inline elements</span>
+                <div class="file-row">
+                    <span>detroit.avif</span>
+                    <span>28.05 - HTML basics, block elements, inline elements</span>
+                    <span>2 weeks ago</span>
                 </div>
-                <div class="file">
-                    <span class="file-name">example.js</span>
-                    <span class="file-details">07.06 tailwind css</span>
+                <div class="file-row">
+                    <span>example.js</span>
+                    <span>07.06 tailwind css</span>
+                    <span>8 hours ago</span>
                 </div>
-                <!-- Add more files as needed -->
+                <div class="file-row">
+                    <span>index.html</span>
+                    <span>07.06 tailwind css</span>
+                    <span>8 hours ago</span>
+                </div>
+                <div class="file-row">
+                    <span>margarita.avif</span>
+                    <span>28.05 - HTML basics, block elements, inline elements</span>
+                    <span>2 weeks ago</span>
+                </div>
+                <div class="file-row">
+                    <span>menu.html</span>
+                    <span>07.06 css positions</span>
+                    <span>3 days ago</span>
+                </div>
+                <div class="file-row">
+                    <span>new-york.avif</span>
+                    <span>28.05 - HTML basics, block elements, inline elements</span>
+                    <span>2 weeks ago</span>
+                </div>
+                <div class="file-row">
+                    <span>responsive.html</span>
+                    <span>07.06 tailwind css</span>
+                    <span>8 hours ago</span>
+                </div>
+                <div class="file-row">
+                    <span>style.css</span>
+                    <span>07.06 tailwind css</span>
+                    <span>8 hours ago</span>
+                </div>
+                <div class="file-row">
+                    <span>tailwind.html</span>
+                    <span>07.06 tailwind css</span>
+                    <span>8 hours ago</span>
+                </div>
             </div>
         </section>
+
         <aside class="sidebar">
-            <h3>About</h3>
-            <p>No description, website, or topics provided.</p>
-            <div class="activity">
-                <h4>Activity</h4>
-                <p>0 Stars</p>
-                <p>1 watching</p>
-                <p>0 forks</p>
+            <div class="about-section">
+                <h3>About</h3>
+                <p>No description, website, or topics provided.</p>
             </div>
-            <div class="releases">
-                <h4>Releases</h4>
-                <p>No releases published.</p>
+            <div class="activity-section">
+                <h3>Activity</h3>
+                <ul>
+                    <li>0 Stars</li>
+                    <li>1 watching</li>
+                    <li>0 forks</li>
+                </ul>
             </div>
-            <div class="packages">
-                <h4>Packages</h4>
-                <p>No packages published.</p>
+            <div class="releases-section">
+                <h3>Releases</h3>
+                <p>No releases published</p>
+                <a href="#">Create new releases</a>
             </div>
-            <div class="languages">
-                <h4>Languages</h4>
-                <div class="language-html">
-                    <span class="color-html"></span> HTML 84.2%
-                </div>
-                <div class="language-css">
-                    <span class="color-css"></span> CSS 15.7%
-                </div>
-                <div class="language-js">
-                    <span class="color-js"></span> JavaScript 0.1%
+            <div class="packages-section">
+                <h3>Packages</h3>
+                <p>No packages published</p>
+                <a href="#">Publish your first package</a>
+            </div>
+            <div class="language-section">
+                <h3>Languages</h3>
+                <div class="language-bar">
+                    <div class="html-bar">HTML 84.2%</div>
+                    <div class="css-bar">CSS 15.7%</div>
+                    <div class="js-bar">JavaScript 0.1%</div>
                 </div>
             </div>
         </aside>
     </main>
+
 </body>
 
 </html>
