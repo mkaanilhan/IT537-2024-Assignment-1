@@ -4,18 +4,36 @@ body {
     padding: 0;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+.top-nav {
     background-color: #f6f8fa;
     border-bottom: 1px solid #ddd;
 }
 
-.header-left {
+.top-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.top-nav-row2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.top-nav-row2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.top-nav-left {
     display: flex;
     align-items: center;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .github-icon {
@@ -23,13 +41,21 @@ body {
     margin-right: 10px;
 }
 
-.header-right {
-    display: flex;
-}
-
-.header-button {
+.top-nav-right {
     display: flex;
     align-items: center;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+
+.top-nav-right img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-button {
     margin-left: 10px;
     padding: 5px 10px;
     background-color: #fff;
@@ -38,25 +64,31 @@ body {
     cursor: pointer;
 }
 
-.header-button img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+.nav-button:hover {
+    background-color: #ffff;
 }
 
-.header-button:hover {
-    background-color: #f0f0f0;
-}
-
-.repo-details {
-    display: flex;
-    align-items: center;
+.main-part {
     padding: 20px;
-    background-color: #f6f8fa;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+}
+
+.main-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
     border-bottom: 1px solid #ddd;
 }
 
-.repo-details h2 {
+.main-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.main-top-left h2 {
     margin-right: 10px;
 }
 
@@ -66,31 +98,100 @@ body {
     padding: 2px 10px;
 }
 
-.branches {
+.main-top-right {
     display: flex;
-    padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    align-items: center;
 }
 
-.branches span {
-    margin-right: 10px;
+.action-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.action-button:hover {
+    background-color: #f0f0f0;
+}
+
+.main-columns {
+    display: flex;
+    margin-top: 20px;
+}
+
+.first-column {
+    flex: 3;
+    margin-right: 20px;
 }
 
 .file-list {
-    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-.file-header {
+.commit-bar {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    background-color: #f6f8fa;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.commit-info {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.commit-info div {
+    margin-right: 10px;
+}
+
+.commit-details {
+    display: flex;
+    align-items: center;
+}
+
+.commit-details div {
+    margin-left: 10px;
+}
+
+.commit-hash {
+    color: #888;
+}
+
+.commit-time,
+.commit-count {
+    color: #555;
+}
+
+.commit-count {
+    display: flex;
+    align-items: center;
+}
+
+.commit-count::before {
+    content: '⏰';
+    margin-right: 5px;
 }
 
 .file-grid {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
@@ -101,10 +202,49 @@ body {
     border-bottom: 1px solid #eee;
 }
 
-.sidebar {
+.readme {
     padding: 20px;
-    background-color: #f6f8fa;
-    border-left: 1px solid #ddd;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.readme-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.readme-header img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.readme-content {
+    text-align: center;
+}
+
+.readme-content p {
+    margin: 5px 0;
+}
+
+.add-readme-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-readme-button:hover {
+    background-color: #218838;
+}
+
+.second-column {
+    flex: 1;
 }
 
 .about-section,
@@ -113,30 +253,115 @@ body {
 .packages-section,
 .language-section {
     margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.activity-section img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.about-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
 }
 
 .language-bar {
     display: flex;
-    flex-direction: column;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .language-bar div {
     height: 20px;
-    margin-bottom: 5px;
-    border-radius: 5px;
 }
 
 .html-bar {
-    width: 84.2%;
-    background-color: #e34c26;
+    width: 81.2%;
+    background-color: orange;
 }
 
 .css-bar {
     width: 15.7%;
-    background-color: #2965f1;
+    background-color: purple;
 }
 
 .js-bar {
-    width: 0.1%;
-    background-color: #f1e05a;
+    width: 3.1%;
+    background-color: green;
+}
+
+.footer {
+    padding: 10px 20px;
+    background-color: #f6f8fa;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 10px;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.top-menu {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+.searching {
+    display: flex;
+    align-items: center;
+    background-color: #f6f8fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.searching input[type="text"] {
+    border: none;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    width: 300px;
+}
+
+.search-container button {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+
+}
+
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-container button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

@@ -5,133 +5,226 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT537 - Assignment 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-left">
-            <img src="github-icon.png" alt="GitHub Icon" class="github-icon">
-            <h1>mkaanilhan / IT537</h1>
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+        <div class="top-nav-row">
+            <div class="top-nav-left">
+                <img src="menu.svg" alt="" class="top-menu">
+                <img src="github.png" alt="GitHub Icon" class="github-icon">
+                <span>techpsychee / <b> IT537 </b> </span>
+            </div>
+            <div class="top-nav-right">
+                <div class="search-container">
+                    <div class="searching">
+                        <img src="search.svg" alt="Search Icon">
+                        <input type="text" placeholder="Type to search">
+                        <img src="terminal.svg" alt="Terminal Icon">
+                    </div>
+                    <button>
+                        <img src="plus.svg" alt="Plus Icon">
+                    </button>
+                    <button>
+                        <img src="clock-9.svg" alt="Clock Icon">
+                    </button>
+                    <button>
+                        <img src="git-pull-request-arrow.svg" alt="Flow Icon">
+                    </button>
+                    <button>
+                        <img src="layers.svg" alt="Trash Icon">
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="header-right">
-            <button class="header-button"><img src="code2.svg" alt="Code"> Code</button>
-            <button class="header-button"><img src="alert-circle.svg" alt="Issues"> Issues</button>
-            <button class="header-button"><img src="git-pull-request.svg" alt="Pull Request"> Pull Request</button>
-            <button class="header-button"><img src="activity.svg" alt="Actions"> Actions</button>
-            <button class="header-button"><img src="briefcase.svg" alt="Projects"> Projects</button>
-            <button class="header-button"><img src="book.svg" alt="Wiki"> Wiki</button>
-            <button class="header-button"><img src="shield.svg" alt="Security"> Security</button>
-            <button class="header-button"><img src="bar-chart-2.svg" alt="Insight"> Insight</button>
-            <button class="header-button"><img src="settings.svg" alt="Settings"> Settings</button>
+        <div class="top-nav-row2">
+            <button class="nav-button"><img src="code.svg" alt="Code"> Code</button>
+            <button class="nav-button"><img src="circle-dot.svg" alt="Issues"> Issues</button>
+            <button class="nav-button"><img src="git-pull-request-arrow.svg" alt="Pull Request"> Pull Request</button>
+            <button class="nav-button"><img src="activity.svg" alt="Actions"> Actions</button>
+            <button class="nav-button"><img src="briefcase.svg" alt="Projects"> Projects</button>
+            <button class="nav-button"><img src="book.svg" alt="Wiki"> Wiki</button>
+            <button class="nav-button"><img src="shield.svg" alt="Security"> Security</button>
+            <button class="nav-button"><img src="bar-chart-2.svg" alt="Insight"> Insight</button>
+            <button class="nav-button"><img src="settings.svg" alt="Settings"> Settings</button>
         </div>
-    </header>
+    </div>
 
-    <main>
-        <section class="repo-details">
-            <h2>IT537</h2>
-            <span class="public-badge">Public</span>
-        </section>
+    <!-- Main Part -->
+    <div class="main-part">
+        <!-- Top Row -->
+        <div class="main-top-row">
+            <div class="main-top-left">
+                <h2>IT537</h2>
+                <span class="public-badge">Public</span>
+            </div>
+            <div class="main-top-right">
+                <button class="action-button"> <img src="pin.svg">Pin</button>
+                <button class="action-button"> <img src="eye-off.svg">Unwatch</button>
+                <button class="action-button"> <img src="git-fork.svg">Fork</button>
+                <button class="action-button"> <img src="star.svg">Star</button>
+            </div>
+        </div>
 
-        <section class="branches">
-            <span>master</span>
-            <span>3 branches</span>
-            <span>0 tags</span>
-        </section>
+        <!-- Main Columns -->
+        <div class="main-columns">
+            <!-- First Column -->
+            <div class="first-column">
+                <div class="about-menu">
+                    <div class="top-nav-left">
 
-        <section class="file-list">
-            <div class="file-header">
-                <span>Commit</span>
-                <span>Time</span>
-            </div>
-            <div class="file-grid">
-                <div class="file-row">
-                    <span>chicago.avif</span>
-                    <span>28.05 - HTML basics, block elements, inline elements</span>
-                    <span>2 weeks ago</span>
-                </div>
-                <div class="file-row">
-                    <span>detroit.avif</span>
-                    <span>28.05 - HTML basics, block elements, inline elements</span>
-                    <span>2 weeks ago</span>
-                </div>
-                <div class="file-row">
-                    <span>example.js</span>
-                    <span>07.06 tailwind css</span>
-                    <span>8 hours ago</span>
-                </div>
-                <div class="file-row">
-                    <span>index.html</span>
-                    <span>07.06 tailwind css</span>
-                    <span>8 hours ago</span>
-                </div>
-                <div class="file-row">
-                    <span>margarita.avif</span>
-                    <span>28.05 - HTML basics, block elements, inline elements</span>
-                    <span>2 weeks ago</span>
-                </div>
-                <div class="file-row">
-                    <span>menu.html</span>
-                    <span>07.06 css positions</span>
-                    <span>3 days ago</span>
-                </div>
-                <div class="file-row">
-                    <span>new-york.avif</span>
-                    <span>28.05 - HTML basics, block elements, inline elements</span>
-                    <span>2 weeks ago</span>
-                </div>
-                <div class="file-row">
-                    <span>responsive.html</span>
-                    <span>07.06 tailwind css</span>
-                    <span>8 hours ago</span>
-                </div>
-                <div class="file-row">
-                    <span>style.css</span>
-                    <span>07.06 tailwind css</span>
-                    <span>8 hours ago</span>
-                </div>
-                <div class="file-row">
-                    <span>tailwind.html</span>
-                    <span>07.06 tailwind css</span>
-                    <span>8 hours ago</span>
-                </div>
-            </div>
-        </section>
+                        <button class="action-button"> <img src="git-pull-request-arrow.svg">master</button>
+                        <img src="git-pull-request-arrow.svg" alt="">
+                        <p>3 Branches</p>
+                        <img src="tag.svg" alt="">
+                        <p>0 Tags</p>
 
-        <aside class="sidebar">
-            <div class="about-section">
-                <h3>About</h3>
-                <p>No description, website, or topics provided.</p>
-            </div>
-            <div class="activity-section">
-                <h3>Activity</h3>
-                <ul>
-                    <li>0 Stars</li>
-                    <li>1 watching</li>
-                    <li>0 forks</li>
-                </ul>
-            </div>
-            <div class="releases-section">
-                <h3>Releases</h3>
-                <p>No releases published</p>
-                <a href="#">Create new releases</a>
-            </div>
-            <div class="packages-section">
-                <h3>Packages</h3>
-                <p>No packages published</p>
-                <a href="#">Publish your first package</a>
-            </div>
-            <div class="language-section">
-                <h3>Languages</h3>
-                <div class="language-bar">
-                    <div class="html-bar">HTML 84.2%</div>
-                    <div class="css-bar">CSS 15.7%</div>
-                    <div class="js-bar">JavaScript 0.1%</div>
+                    </div>
+                    <div class="top-nav-left">
+                        <button class="action-button">Add file</button>
+                        <button class="action-button" style="background-color: green;">Code</button>
+                    </div>
+                </div>
+                <!-- File List -->
+                <div class="file-list">
+                    <div class="commit-bar">
+                        <div class="commit-info">
+                            <div class="username">techpsychee</div>
+                            <div class="description">07.06 tailwind css</div>
+                        </div>
+                        <div class="commit-details">
+                            <div class="commit-hash">327ebfa</div>
+                            <div class="commit-time">35 minutes ago</div>
+                            <div class="commit-count">16 commits</div>
+                        </div>
+                    </div>
+                    <div class="file-grid">
+                        <div class="file-row">
+                            <span><img src="file.svg"> chicago.avif</span>
+                            <span>28.05 - HTML basics, block elements, inline elements</span>
+                            <span>2 weeks ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">detroit.avif</span>
+                            <span>28.05 - HTML basics, block elements, inline elements</span>
+                            <span>2 weeks ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">example.js</span>
+                            <span>07.06 tailwind css</span>
+                            <span>8 hours ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">index.html</span>
+                            <span>07.06 tailwind css</span>
+                            <span>8 hours ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">margarita.avif</span>
+                            <span>28.05 - HTML basics, block elements, inline elements</span>
+                            <span>2 weeks ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">menu.html</span>
+                            <span>07.06 css positions</span>
+                            <span>3 days ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">new-york.avif</span>
+                            <span>28.05 - HTML basics, block elements, inline elements</span>
+                            <span>2 weeks ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">responsive.html</span>
+                            <span>07.06 tailwind css</span>
+                            <span>8 hours ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">style.css</span>
+                            <span>07.06 tailwind css</span>
+                            <span>8 hours ago</span>
+                        </div>
+                        <div class="file-row">
+                            <span><img src="file.svg">tailwind.html</span>
+                            <span>07.06 tailwind css</span>
+                            <span>8 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Readme Section -->
+                <div class="readme">
+                    <div class="readme-header">
+                        <img src="book.svg" alt="Book Icon">
+                        <h3>README</h3>
+                    </div>
+                    <div class="readme-content">
+                        <p>Add a README</p>
+                        <p>Help people interested in this repository understand your project by adding a README.</p>
+                        <button class="add-readme-button">Add a README</button>
+                    </div>
                 </div>
             </div>
-        </aside>
-    </main>
 
+            <!-- Second Column -->
+            <div class="second-column">
+                <div class="about-section">
+                    <div class="about-menu">
+                        <h3>About</h3>
+                        <img src="settings.svg" alt="setting">
+                    </div>
+                    <p>No description, website, or topics provided.</p>
+                </div>
+                <div>
+                    <div class="activity-section">
+
+                        <p> <img src="menu.svg" alt="">Activity</p>
+                        <p><img src="star.svg" alt=""> 0 Stars</p>
+                        <p><img src="eye.svg" alt="">1 Watching</p>
+                        <p><img src="git-fork.svg" alt="">0 Forks</p>
+                    </div>
+                </div>
+                <div class="releases-section">
+                    <h3>Releases</h3>
+                    <p>No releases published</p>
+                    <a href="#">Create new releases</a>
+                </div>
+                <div class="packages-section">
+                    <h3>Packages</h3>
+                    <p>No packages published</p>
+                    <a href="#">Publish your first package</a>
+                </div>
+                <div class="language-section">
+                    <h3>Language</h3>
+                    <div class="language-bar">
+                        <div class="html-bar"></div>
+                        <div class="css-bar"></div>
+                        <div class="js-bar"></div>
+                    </div>
+
+                    <div>
+                        <p><span style="color: orange;">&#9679;</span> HTML 84.2%</p>
+                        <p><span style="color: purple;">&#9679;</span> CSS 15.7%</p>
+                        <p><span style="color: green;">&#9679;</span> JavaScript 0.1%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+        <a href="#">Docs</a>
+        <a href="#">Contact</a>
+        <a href="#">Manage cookies</a>
+        <a href="#">Do not share my personal information</a>
+    </footer>
 </body>
 
 </html>
