@@ -31,7 +31,7 @@ svg {
 
 /*  header */
 
-header {
+header:not(.main-header) {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +152,34 @@ main {
       display: inline-block;
       justify-content: center;
       align-items: center;
+    }
+  }
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 3fr 1.25fr;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 20px 0;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+    span {
+      margin-right: 5px;
+    }
+    .bordered {
+      background-color: #f3f5f6;
     }
   }
 }
