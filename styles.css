@@ -1,5 +1,11 @@
 /*  General */
 
+:root {
+  --background-color-main: #f3f5f6;
+  --background-color-secondary: #ffffff;
+  --hover-main: #e6e6e6;
+}
+
 .bordered {
   border: 1px solid #d3d3d3;
   border-radius: 5px;
@@ -16,6 +22,7 @@ svg {
 .item {
   padding: 5px;
   border-radius: 4px;
+  font-size: 14px;
   &:hover:not(.logo, .hu-search) {
     cursor: pointer;
     background-color: #e6e6e6;
@@ -44,6 +51,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .repo-title {
+      font-weight: bold;
+    }
 
     div,
     span {
@@ -89,6 +100,58 @@ header {
       svg {
         margin-right: 5px;
       }
+    }
+  }
+}
+
+/*  main */
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.repo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+}
+
+.repo-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .repo-info-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 125px;
+
+    span {
+      margin-right: 5px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
