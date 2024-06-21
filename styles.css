@@ -235,6 +235,8 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-areas: "a . b";
+    border: 1px solid #d3d3d3;
+    border-bottom: none;
     .a {
       :first-child {
         margin-right: 10px;
