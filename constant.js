@@ -2,7 +2,7 @@ const info = [
   {
     icon: "folder",
     textOne: ".github/workflows",
-    textTwo: "Add Shopify Oxygen deployment workflow file",
+    textTwo: "Add  deployment workflow file",
     textThree: "5 months ago",
   },
   {
@@ -19,25 +19,25 @@ const info = [
   },
   {
     icon: "file",
-    textOne: ".eslintignore",
-    textTwo: ".DS_Store added to the gitignore",
+    textOne: "eslintignore",
+    textTwo: "DS_Store added to the gitignore",
     textThree: "5 months ago",
   },
   {
     icon: "file",
-    textOne: ".eslintrc.js",
+    textOne: "eslintrc.js",
     textTwo: "Add index.js",
     textThree: "6 months ago",
   },
   {
     icon: "file",
-    textOne: ".gitignore",
+    textOne: "gitignore",
     textTwo: "Add LICENSE",
     textThree: "5 months ago",
   },
   {
     icon: "file",
-    textOne: ".graphqlrc.yml",
+    textOne: "graphqlrc.yml",
     textTwo: "Add README",
     textThree: "5 months ago",
   },
