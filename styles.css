@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header {
+    background-color: #24292e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.repo-buttons .btn {
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.repo-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.file-list {
+    margin-top: 20px;
+}
+
+.file-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.file-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.file-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.file-name {
+    font-weight: bold;
+}
+
+.file-info {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.btn {
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0254a6;
+}
+
+.btn .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #24292e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
