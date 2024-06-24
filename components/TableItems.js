@@ -1,12 +1,12 @@
 class TableItem extends HTMLElement {
-    constructor(textOne = "Test", textTwo = "Test", textThree = "Test") {
-        super();
-        this.textOne = textOne;
-        this.textTwo = textTwo;
-        this.textThree = textThree;
+  constructor(textOne = "Test", textTwo = "Test", textThree = "Test") {
+    super();
+    this.textOne = textOne;
+    this.textTwo = textTwo;
+    this.textThree = textThree;
 
-        this.attachShadow({ mode: "open" });
-        this.shadowRoot.innerHTML = `
+    this.attachShadow({ mode: "open" });
+    this.shadowRoot.innerHTML = `
               <style>
                   .files-table__item {
                       display: grid;
@@ -15,6 +15,9 @@ class TableItem extends HTMLElement {
                       border-bottom: none;
                       margin-right: 10px;
                       padding: 10px;
+                       &:hover {
+                        background-color: #f2f2f2;
+                      }
                   }
 
                   .link {
@@ -37,16 +40,16 @@ class TableItem extends HTMLElement {
               </style>
   
               <div class="files-table__item">
-                  <span class="link" ><i data-lucide="folder"></i><span>${this.textOne}</span></span>
-                  <span class="link" >${this.textTwo}</span>
-                  <span class="last">${this.textThree}</span>
+                  <span ><i data-lucide="folder"></i><span  class="link" >${this.textOne}</span></span>
+                  <span><span class="link" >${this.textTwo}</span> </span>
+                  <span class="last"> <span>${this.textThree}</span> </span>
               </div>
           `;
-    }
+  }
 
-    connectedCallback() {
-        lucide.createIcons(this.shadowRoot);
-    }
+  connectedCallback() {
+    lucide.createIcons(this.shadowRoot);
+  }
 }
 
 customElements.define("table-item", TableItem);
