@@ -61,10 +61,10 @@
                 <span class="public-badge">Public</span>
             </div>
             <div class="main-top-right">
-                <button class="action-button"> <img src="pin.svg">Pin</button>
-                <button class="action-button"> <img src="eye-off.svg">Unwatch</button>
-                <button class="action-button"> <img src="git-fork.svg">Fork</button>
-                <button class="action-button"> <img src="star.svg">Star</button>
+                <button class="action-button"> <img src="pin.svg" alt="Pin">Pin</button>
+                <button class="action-button"> <img src="eye-off.svg" alt="Unwatch">Unwatch</button>
+                <button class="action-button"> <img src="git-fork.svg" alt="Fork">Fork</button>
+                <button class="action-button"> <img src="star.svg" alt="Star">Star</button>
             </div>
         </div>
 
@@ -74,13 +74,12 @@
             <div class="first-column">
                 <div class="about-menu">
                     <div class="top-nav-left">
-
-                        <button class="action-button"> <img src="git-pull-request-arrow.svg">master</button>
+                        <button class="action-button"> <img src="git-pull-request-arrow.svg"
+                                alt="Branch">master</button>
                         <img src="git-pull-request-arrow.svg" alt="">
                         <p>3 Branches</p>
                         <img src="tag.svg" alt="">
                         <p>0 Tags</p>
-
                     </div>
                     <div class="top-nav-left">
                         <button class="action-button">Add file</button>
@@ -100,58 +99,67 @@
                             <div class="commit-count">16 commits</div>
                         </div>
                     </div>
-                    <div class="file-grid">
-                        <div class="file-row">
-                            <span><img src="file.svg"> chicago.avif</span>
-                            <span>28.05 - HTML basics, block elements, inline elements</span>
-                            <span>2 weeks ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">detroit.avif</span>
-                            <span>28.05 - HTML basics, block elements, inline elements</span>
-                            <span>2 weeks ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">example.js</span>
-                            <span>07.06 tailwind css</span>
-                            <span>8 hours ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">index.html</span>
-                            <span>07.06 tailwind css</span>
-                            <span>8 hours ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">margarita.avif</span>
-                            <span>28.05 - HTML basics, block elements, inline elements</span>
-                            <span>2 weeks ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">menu.html</span>
-                            <span>07.06 css positions</span>
-                            <span>3 days ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">new-york.avif</span>
-                            <span>28.05 - HTML basics, block elements, inline elements</span>
-                            <span>2 weeks ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">responsive.html</span>
-                            <span>07.06 tailwind css</span>
-                            <span>8 hours ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">style.css</span>
-                            <span>07.06 tailwind css</span>
-                            <span>8 hours ago</span>
-                        </div>
-                        <div class="file-row">
-                            <span><img src="file.svg">tailwind.html</span>
-                            <span>07.06 tailwind css</span>
-                            <span>8 hours ago</span>
-                        </div>
-                    </div>
+                    <table class="file-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Description</th>
+                                <th>Last updated</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> chicago.avif</td>
+                                <td>28.05 - HTML basics, block elements, inline elements</td>
+                                <td>2 weeks ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> detroit.avif</td>
+                                <td>28.05 - HTML basics, block elements, inline elements</td>
+                                <td>2 weeks ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> example.js</td>
+                                <td>07.06 tailwind css</td>
+                                <td>8 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> index.html</td>
+                                <td>07.06 tailwind css</td>
+                                <td>8 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> margarita.avif</td>
+                                <td>28.05 - HTML basics, block elements, inline elements</td>
+                                <td>2 weeks ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> menu.html</td>
+                                <td>07.06 css positions</td>
+                                <td>3 days ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> new-york.avif</td>
+                                <td>28.05 - HTML basics, block elements, inline elements</td>
+                                <td>2 weeks ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> responsive.html</td>
+                                <td>07.06 tailwind css</td>
+                                <td>8 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> style.css</td>
+                                <td>07.06 tailwind css</td>
+                                <td>8 hours ago</td>
+                            </tr>
+                            <tr>
+                                <td><img src="file.svg" alt="File"> tailwind.html</td>
+                                <td>07.06 tailwind css</td>
+                                <td>8 hours ago</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
                 <!-- Readme Section -->
@@ -177,14 +185,11 @@
                     </div>
                     <p>No description, website, or topics provided.</p>
                 </div>
-                <div>
-                    <div class="activity-section">
-
-                        <p> <img src="menu.svg" alt="">Activity</p>
-                        <p><img src="star.svg" alt=""> 0 Stars</p>
-                        <p><img src="eye.svg" alt="">1 Watching</p>
-                        <p><img src="git-fork.svg" alt="">0 Forks</p>
-                    </div>
+                <div class="activity-section">
+                    <p> <img src="menu.svg" alt="">Activity</p>
+                    <p><img src="star.svg" alt=""> 0 Stars</p>
+                    <p><img src="eye.svg" alt="">1 Watching</p>
+                    <p><img src="git-fork.svg" alt="">0 Forks</p>
                 </div>
                 <div class="releases-section">
                     <h3>Releases</h3>
@@ -203,7 +208,6 @@
                         <div class="css-bar"></div>
                         <div class="js-bar"></div>
                     </div>
-
                     <div>
                         <p><span style="color: orange;">&#9679;</span> HTML 84.2%</p>
                         <p><span style="color: purple;">&#9679;</span> CSS 15.7%</p>

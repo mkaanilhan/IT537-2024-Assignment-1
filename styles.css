@@ -29,7 +29,8 @@ body {
     margin-right: 10px;
 }
 
-.top-nav-left {
+.top-nav-left,
+.top-nav-right {
     display: flex;
     align-items: center;
     margin-right: 5px;
@@ -41,21 +42,17 @@ body {
     margin-right: 10px;
 }
 
-.top-nav-right {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    padding: 5px;
-}
-
-
 .top-nav-right img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
 }
 
-.nav-button {
+.nav-button,
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 10px;
     padding: 5px 10px;
     background-color: #fff;
@@ -64,15 +61,15 @@ body {
     cursor: pointer;
 }
 
-.nav-button:hover {
-    background-color: #ffff;
+.nav-button:hover,
+.action-button:hover {
+    background-color: #f0f0f0;
 }
 
 .main-part {
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 70px;
 }
 
 .main-top-row {
@@ -103,33 +100,20 @@ body {
     align-items: center;
 }
 
-.action-button {
-    margin-left: 10px;
-    padding: 5px 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .action-button img {
     width: 20px;
     height: 20px;
     margin-right: 5px;
 }
 
-.action-button:hover {
-    background-color: #f0f0f0;
-}
-
 .main-columns {
     display: flex;
     margin-top: 20px;
+    gap: 20px;
 }
 
 .first-column {
     flex: 3;
-    margin-right: 20px;
 }
 
 .file-list {
@@ -148,7 +132,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.commit-info {
+.commit-info,
+.commit-details {
     display: flex;
     align-items: center;
 }
@@ -159,11 +144,6 @@ body {
 
 .commit-info div {
     margin-right: 10px;
-}
-
-.commit-details {
-    display: flex;
-    align-items: center;
 }
 
 .commit-details div {
@@ -189,17 +169,21 @@ body {
     margin-right: 5px;
 }
 
-.file-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.file-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+.file-table th,
+.file-table td {
+    padding: 10px;
+    text-align: left;
     border-bottom: 1px solid #eee;
+}
+
+.file-table tr:hover {
+    background-color: #f6f8fa;
+    cursor: pointer;
 }
 
 .readme {
@@ -207,7 +191,6 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-
 }
 
 .readme-header {
@@ -322,8 +305,6 @@ body {
     display: flex;
     align-items: center;
     border-radius: 10px;
-
-
 }
 
 .searching {
@@ -353,7 +334,6 @@ body {
     cursor: pointer;
     outline: none;
     margin-right: 10px;
-
 }
 
 .search-container button img {
