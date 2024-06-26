@@ -43,8 +43,12 @@ body {
     border-bottom: 1px solid #e1e4e8;
 }
 
+.repo-buttons {
+    display: flex;
+    gap: 10px;
+}
+
 .repo-buttons .btn {
-    margin-left: 5px;
     display: flex;
     align-items: center;
     background-color: #eff3f6;
