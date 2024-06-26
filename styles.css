@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #161b22;
+  padding: 10px 0;
+  border-bottom: 1px solid #21262d;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.main {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.branch-info {
+  display: flex;
+  align-items: center;
+}
+
+.branch-button {
+  background-color: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.branch-tag-info {
+  color: #c9d1d9;
+}
+
+.file-controls {
+  display: flex;
+  align-items: center;
+}
+
+.file-search {
+  background-color: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-file-button {
+  background-color: #161b22;
+  color: #c9d1d9;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.code-button {
+  background-color: #238636;
+  color: #fff;
+  border: 1px solid #21262d;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 20%;
+  margin-left: 20px;
+  border: 1px solid #21262d;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.repo-info,
+.repo-links {
+  margin-bottom: 20px;
+}
+
+.repo-links .link-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.repo-links .link-item svg {
+  margin-right: 10px;
+}
+
+.repo-links a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+}
+
+.bordered-section {
+  border: 1px solid #21262d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+
+.commit-summary {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #21262d;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.commit-details {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.account-name {
+  font-weight: bold;
+}
+
+.commit-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #21262d;
+}
+
+.file-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.file-name {
+  margin-right: 10px;
+  white-space: nowrap;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.commit-info {
+  text-align: center;
+  white-space: nowrap;
+  flex-grow: 2;
+}
+
+.timestamp {
+  white-space: nowrap;
+}
+
+.readme-content {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #21262d;
+  background-color: #161b22;
+}

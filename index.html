@@ -1,8 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Assignment 1</title>
-</head>
-<body>
-    <p>Assignment 1</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Repo Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt="GitHub Logo"
+          />
+          <h1>IT537-2024-Assignment-1</h1>
+        </div>
+        <nav class="nav">
+          <a href="#">Code</a>
+          <a href="#">Issues</a>
+          <a href="#">Pull Requests</a>
+          <a href="#">Actions</a>
+          <a href="#">Projects</a>
+          <a href="#">Wiki</a>
+          <a href="#">Security</a>
+          <a href="#">Insights</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="content-container">
+        <div class="top-bar">
+          <div class="branch-info">
+            <button class="branch-button">IT537_00034592 ▼</button>
+            <span class="branch-tag-info">2 Branches | 0 Tags</span>
+          </div>
+          <div class="file-controls">
+            <input type="text" class="file-search" placeholder="Go to file" />
+            <button class="add-file-button">Add file ▼</button>
+            <button class="code-button">Code ▼</button>
+          </div>
+        </div>
+
+        <section class="content">
+          <div class="bordered-section">
+            <div class="commit-summary">
+              <img
+                src="https://avatars.githubusercontent.com/u/9919?s=64&v=4"
+                alt="Profile Photo"
+                class="profile-photo"
+              />
+              <div class="commit-details">
+                <span class="account-name">octocat</span>
+                <span class="latest-commit"
+                  >Latest commit message goes here</span
+                >
+              </div>
+              <div class="commit-meta">
+                <span class="commit-timestamp">3 hours ago</span>
+                <span class="commit-count">100 commits</span>
+              </div>
+            </div>
+            <div class="file-list">
+              <div class="file-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-folder"
+                >
+                  <path
+                    d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"
+                  />
+                </svg>
+                <div class="file-details">
+                  <span class="file-name">src</span>
+                  <span class="commit-info">Initial commit</span>
+                  <span class="timestamp">3 hours ago</span>
+                </div>
+              </div>
+              <div class="file-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file"
+                >
+                  <path
+                    d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                  />
+                  <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                </svg>
+                <div class="file-details">
+                  <span class="file-name">README.md</span>
+                  <span class="commit-info">Added README</span>
+                  <span class="timestamp">2 hours ago</span>
+                </div>
+              </div>
+              <div class="file-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file"
+                >
+                  <path
+                    d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                  />
+                  <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                </svg>
+                <div class="file-details">
+                  <span class="file-name">index.html</span>
+                  <span class="commit-info">First commit</span>
+                  <span class="timestamp">1 hour ago</span>
+                </div>
+              </div>
+              <div class="file-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file"
+                >
+                  <path
+                    d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                  />
+                  <path d="M14 2v4a2 2 0 0 0 2 2h4" />
+                </svg>
+                <div class="file-details">
+                  <span class="file-name">styles.css</span>
+                  <span class="commit-info">Added styles</span>
+                  <span class="timestamp">30 mins ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2>README</h2>
+          <div class="readme-content bordered-section">
+            <h3>IT537 - Assignment 1</h3>
+            <p>
+              You are responsible for creating a GitHub repo landing page as
+              much as possible. You can find the demo below made by me.
+            </p>
+            <ul>
+              <li>You must use at least 2 flexboxes.</li>
+              <li>You must use at least 1 grid.</li>
+              <li>
+                Responsive design is not necessary. Design can be made according
+                to the laptop screen.
+              </li>
+              <li>Pure css is compulsory. Tailwind is not accepted.</li>
+              <li>
+                You can find the icons in
+                <a href="https://lucide.dev/">https://lucide.dev/</a>
+              </li>
+              <li>You can use any color palette you want.</li>
+              <li>GitHub icon can be found in Google.</li>
+              <li>
+                You are free to use inline styling, style tag, or external css
+                file.
+              </li>
+            </ul>
+            <p>
+              Demo:
+              <a href="https://youtu.be/Ma7kSK13O8M"
+                >https://youtu.be/Ma7kSK13O8M</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <h2>About</h2>
+        <div class="repo-info">
+          <p>No description, website, or topics provided.</p>
+        </div>
+        <div class="repo-links">
+          <div class="link-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-book-open"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+            </svg>
+            <a href="#">Readme</a>
+          </div>
+          <div class="link-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-activity"
+            >
+              <path
+                d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
+              />
+            </svg>
+            <a href="#">Activity</a>
+          </div>
+          <div class="link-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-star"
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+              />
+            </svg>
+            <a href="#">Stars</a>
+          </div>
+          <div class="link-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-eye"
+            >
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            <a href="#">Watching</a>
+          </div>
+          <div class="link-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-git-fork"
+            >
+              <circle cx="12" cy="18" r="3" />
+              <circle cx="6" cy="6" r="3" />
+              <circle cx="18" cy="6" r="3" />
+              <path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9" />
+              <path d="M12 12v3" />
+            </svg>
+            <a href="#">Forks</a>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Resat Ataberk Ozek</p>
+    </footer>
+  </body>
 </html>
