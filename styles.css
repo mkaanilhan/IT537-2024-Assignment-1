@@ -1,0 +1,347 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.top-nav-row2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.top-nav-row2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.top-nav-left,
+.top-nav-right {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.github-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.top-nav-right img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-button,
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover,
+.action-button:hover {
+    background-color: #f0f0f0;
+}
+
+.main-part {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-top-left {
+    display: flex;
+    align-items: center;
+}
+
+.main-top-left h2 {
+    margin-right: 10px;
+}
+
+.public-badge {
+    background-color: #e1e4e8;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+.main-top-right {
+    display: flex;
+    align-items: center;
+}
+
+.action-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.main-columns {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.first-column {
+    flex: 3;
+}
+
+.file-list {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.commit-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f8fa;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.commit-info,
+.commit-details {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.commit-info div {
+    margin-right: 10px;
+}
+
+.commit-details div {
+    margin-left: 10px;
+}
+
+.commit-hash {
+    color: #888;
+}
+
+.commit-time,
+.commit-count {
+    color: #555;
+}
+
+.commit-count {
+    display: flex;
+    align-items: center;
+}
+
+.commit-count::before {
+    content: '⏰';
+    margin-right: 5px;
+}
+
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.file-table th,
+.file-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.file-table tr:hover {
+    background-color: #f6f8fa;
+    cursor: pointer;
+}
+
+.readme {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.readme-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.readme-header img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.readme-content {
+    text-align: center;
+}
+
+.readme-content p {
+    margin: 5px 0;
+}
+
+.add-readme-button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-readme-button:hover {
+    background-color: #218838;
+}
+
+.second-column {
+    flex: 1;
+}
+
+.about-section,
+.activity-section,
+.releases-section,
+.packages-section,
+.language-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.activity-section img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.about-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.language-bar {
+    display: flex;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.language-bar div {
+    height: 20px;
+}
+
+.html-bar {
+    width: 81.2%;
+    background-color: orange;
+}
+
+.css-bar {
+    width: 15.7%;
+    background-color: purple;
+}
+
+.js-bar {
+    width: 3.1%;
+    background-color: green;
+}
+
+.footer {
+    padding: 10px 20px;
+    background-color: #f6f8fa;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 10px;
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.top-menu {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.searching {
+    display: flex;
+    align-items: center;
+    background-color: #f6f8fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.searching input[type="text"] {
+    border: none;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    width: 300px;
+}
+
+.search-container button {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+}
+
+.search-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-container button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
