@@ -1,6 +1,6 @@
 # Secreenshot
 
-<img src='assets/Screenshot 2024-06-22 at 09.26.17.png' />
+<img src='assets/ss.png' />
 
 <br>
 
