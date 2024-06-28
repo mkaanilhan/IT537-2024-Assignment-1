@@ -33,7 +33,7 @@ a:hover{
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    display: flex;
+    display: grid;
 }
 
 header {
@@ -51,31 +51,42 @@ main {
     padding: 40px 0;
 }
 
-.table-container {
-    display: grid;
-    gap: 8px;
-    font-size: 32px;
+.table-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+th,td{
+    border: 1px solid gray;
+    padding: 4px 16px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
 }
 
 .table-item {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ccc;
+    gap: 8px;
+}
+
+.info-container {
     text-align: center;
 }
 
-.flex-container {
-    display: grid;
-    gap: 20px;
-    row-gap: 10px;
-    column-gap: 20px;
-}
-
-.flex-item {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
+.table-container-readme {
+    display: flex;
+    justify-content: center;
 }
 
 footer {

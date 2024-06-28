@@ -13,6 +13,14 @@
 <body>
     <div id="body-container" class="body-container">
     <header>
+    <div>  
+        <img src="github.png" alt="github">
+    </div>
+    <div class="Search">
+        <label for="search-box" class="text">
+            <textarea name="search-box" id="search-box" cols="50" rows="1" placeholder="Search"></textarea>
+        </label>
+    </div>
         <h1>GitHub-MT</h1>
         <nav>
             <ul>
@@ -48,33 +56,52 @@
     </header>
     <main>
         <div id="container" class="container">
-            <table>
-                <section id="table-container" class="table-container">
-                    <div id="table-item" class="table-item">Feature 1</div>
-                    <div id="table-item" class="table-item">Feature 2</div>
-                    <div id="table-item" class="table-item">Feature 3</div>
-                    <div id="table-item" class="table-item">Feature 4</div>
-                    <div id="table-item" class="table-item">Feature 5</div>
-                </section>
-            </table>
-            <section id="flex-container" class="flex-container">
-                <div id="flex-item" class="flex-item">
+                <div id="table-container" class="table-container">
+                <table>
+                    <th>
+                        Head
+                    </th>
+                    <tr>
+                        <td id="table-item" class="table-item">Feature 1</td>
+                    </tr>
+                    <tr>
+                        <td id="table-item" class="table-item">Feature 2</td>
+                    </tr>
+                    <tr>
+                        <td id="table-item" class="table-item">Feature 3</td>
+                    </tr>
+                    <tr>
+                        <td id="table-item" class="table-item">Feature 4</td>
+                    </tr>
+                    <tr>
+                        <td id="table-item" class="table-item">Feature 5</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="info-container" class="info-container">
+                <div id="info-item" class="info-item">
                     <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium libero eu lorem elementum, et semper arcu suscipit.</p>
+                    <p>No description, website, or topics provided.</p>
                 </div>
-                <div id="flex-item" class="flex-item">
+                <div id="info-item" class="info-item">
                     <h2>Release</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium libero eu lorem elementum, et semper arcu suscipit.</p>
+                    <p>No releases published</p>
                 </div>
-                <div id="flex-item" class="flex-item">
+                <div id="info-item" class="info-item">
                     <h2>Packages</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium libero eu lorem elementum, et semper arcu suscipit.</p>
+                    <p>No packages published</p>
                 </div>
-                <div id="flex-item" class="flex-item">
-                    <h2>Languages</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium libero eu lorem elementum, et semper arcu suscipit.</p>
-                </div>
-            </section>
+            </div>
+            <div id="table-container-readme" class="table-container-readme">
+                <table>
+                    <tr id="table-item-rm" class="table-item-rm">
+                        <th>Read Me</th>
+                    </tr>
+                    <tr id="table-item-rm" class="table-item-rm">
+                        <td>Null</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </main>
 
