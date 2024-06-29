@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Repo</title>
+    <title>GitHub Repo Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="header-content">
             <img src="github-icon.png" alt="GitHub Icon" class="github-icon">
-            <h1>My GitHub Repo</h1>
+            <h1>IT537</h1>
         </div>
         <nav class="navbar">
             <ul class="nav-list">
@@ -22,44 +22,73 @@
                 <li><a href="#">Wiki</a></li>
                 <li><a href="#">Security</a></li>
                 <li><a href="#">Insights</a></li>
+                <li><a href="#">Settings</a></li>
             </ul>
         </nav>
     </header>
     <main class="main-content">
-        <section class="repo-info">
-            <h2>My GitHub Repository</h2>
-            <p>A sample GitHub repository landing page created for the IT537 assignment.</p>
-            <button class="btn-star"><img src="star-icon.png" alt="Star Icon"> Star</button>
-        </section>
-        <section class="repo-details">
-            <div class="details-grid">
-                <div class="grid-item">
-                    <h3>Stars</h3>
-                    <p>100</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Forks</h3>
-                    <p>50</p>
-                </div>
-                <div class="grid-item">
-                    <h3>Issues</h3>
-                    <p>10</p>
+        <section class="repo-overview">
+            <div class="repo-details">
+                <h2>IT537 <span class="repo-status">Public</span></h2>
+                <div class="repo-buttons">
+                    <button class="btn"><img src="pin-icon.png" alt="Pin"> Pin</button>
+                    <button class="btn"><img src="unwatch-icon.png" alt="Unwatch"> Unwatch</button>
+                    <button class="btn"><img src="fork-icon.png" alt="Fork"> Fork</button>
+                    <button class="btn"><img src="star-icon.png" alt="Star"> Star</button>
                 </div>
             </div>
         </section>
-        <section class="contributors">
-            <h2>Contributors</h2>
-            <div class="contributors-list">
-                <div class="contributor">
-                    <img src="contributor1.png" alt="Contributor 1">
-                    <p>Contributor 1</p>
+        <section class="repo-content">
+            <div class="repo-main">
+                <div class="branch-info">
+                    <span>master</span> <span>3 branches</span> <span>0 tags</span>
                 </div>
-                <div class="contributor">
-                    <img src="contributor2.png" alt="Contributor 2">
-                    <p>Contributor 2</p>
-                </div>
-                <!-- Add more contributors as needed -->
+                <table class="file-list">
+                    <thead>
+                        <tr>
+                            <th>File</th>
+                            <th>Commit Message</th>
+                            <th>Commit Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>chicago.avif</td>
+                            <td>HTML basics, block elements, inline elements</td>
+                            <td>2 weeks ago</td>
+                        </tr>
+                        <!-- Add more file rows as needed -->
+                    </tbody>
+                </table>
             </div>
+            <aside class="repo-sidebar">
+                <div class="about-section">
+                    <h3>About</h3>
+                    <p>No description, website, or topics provided.</p>
+                </div>
+                <div class="activity-section">
+                    <h3>Activity</h3>
+                    <p>0 Stars</p>
+                    <p>1 watching</p>
+                    <p>0 forks</p>
+                </div>
+                <div class="releases-section">
+                    <h3>Releases</h3>
+                    <p>No releases published</p>
+                    <a href="#">Create new release</a>
+                </div>
+                <div class="packages-section">
+                    <h3>Packages</h3>
+                    <p>No packages published</p>
+                    <a href="#">Publish your first package</a>
+                </div>
+                <div class="language-section">
+                    <h3>Language</h3>
+                    <p>HTML 84.2%</p>
+                    <p>CSS 15.7%</p>
+                    <p>JavaScript 0.1%</p>
+                </div>
+            </aside>
         </section>
     </main>
     <footer class="footer">
