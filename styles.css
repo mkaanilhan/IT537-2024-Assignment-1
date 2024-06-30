@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+
+.header>div:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-left .logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.header-right>button { 
+    margin-right: 10px;
+    border: none;
+}
+
+.header-right>button:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.button-container>button {
+    background-color: whitesmoke;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.button-container:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.button-container>button>img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.search {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #dcdada;
+    font-size: 1em;
+}
+
+.nav {
+    background-color: whitesmoke;
+    border-bottom: solid 1px gray;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9dde2;
+}
+
+.topnav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.topnav-buttons .butn {
+    display: flex;
+    align-items: center;
+    background-color: #eff3f6;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.topnav-buttons .butn:hover {
+    background-color: #d9dde2;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.repo-info {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.repo-info .repo-branches {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.repo-info .repo-branches span {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #586069;
+}
+
+.add-file {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.files-section {
+    flex: 7;
+}
+
+.files-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.files-section table th, .files-section table td {
+    padding: 10px;
+    border: 1px solid #e1e4e8;
+    text-align: left;
+}
+
+.sidebar {
+    flex: 3;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sidebar .about, .sidebar .releases, .sidebar .packages, .sidebar .languages {
+    background-color: #f6f8fa;
+    padding: 15px;
+    border: 1px solid #e1e4e8;
+}
+
+.sidebar .about .activity {
+    margin-top: 10px;
+}
+
+.sidebar .about .activity ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar .about .activity ul li {
+    margin-bottom: 5px;
+}
