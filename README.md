@@ -1,3 +1,8 @@
+# Secreenshot
+
+<img src='assets/ss.png' />
+
+<br>
 
 # IT537 - Assignment 1
 
@@ -11,10 +16,9 @@ You are responsible for creating github repo landing page as much as possible. Y
 - You can use any color palette you want.
 - GitHub icon can be found in google.
 - You are free to use inline styling, style tag or external css file.
-- Due date is 30.06.2024, 11.59 pm.
+- Due date is 28.06.2024, 11.59 pm.
 - I will share my solution after the due date.
-- Your branch name must be following format IT537_<YOUR_SCHOOL_ID> eg. IT537_27404
-
+- Your branch name must be following format IT537\_<YOUR_SCHOOL_ID> eg. IT537_27404
 
 ## Demo
 
