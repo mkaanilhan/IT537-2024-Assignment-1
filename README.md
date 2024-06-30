@@ -14,6 +14,7 @@ You are responsible for creating github repo landing page as much as possible. Y
 - Due date is 30.06.2024, 11.59 pm.
 - I will share my solution after the due date.
 - Your branch name must be following format IT537_<YOUR_SCHOOL_ID> eg. IT537_27404
+ok
 
 
 ## Demo
