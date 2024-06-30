@@ -38,23 +38,50 @@ body {
     margin: 0;
 }
 
+.search-bar {
+    padding: 5px;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: -800px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.header-icon {
+    width: 20px; 
+    height: 20px; 
+}
+
 .nav {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
+    margin-left: 60px;
    
 }
 
 .nav a {
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid transparent;
     border-radius: 5px;
+    
 }
 
 .nav a:hover {
     border-color: #e1e4e8;
+}
+
+.nav-icon {
+    width: 16px; 
+    height: 16px; 
+
 }
 
 .repo-header {
@@ -85,10 +112,17 @@ body {
 
 .branch-info {
     display: flex;
-    gap: 30px;
-    margin-left: 15px;
+    gap: 10px;
+    margin-left: -20px;
     padding-top: 15px;
+
     
+}
+
+.branch-icon {
+    width: 16px; 
+    height: 16px; 
+    margin-right: 3px; 
 }
 
 .branch-info-last2 {
@@ -142,7 +176,7 @@ body {
     flex: 3;
     background-color: #fff;
     border: 1px solid #e1e4e8;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 0px;
     justify-content: space-between;
     
@@ -157,7 +191,7 @@ body {
     padding: 10px;
     background-color: #f6f8fa;
     border-bottom: 1px solid #e1e4e8;
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .file-list ul {
@@ -175,12 +209,18 @@ body {
 
 
 .file-list ul li .file-date {
-    margin-right: 30px; /* file-info sınıfına sahip öğeler arasına boşluk bırakmak */
+    margin-right: 30px; 
 }
 
 .file-list ul li span {
     flex: 1;
     
+}
+
+.file-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
 }
 
 .repo-details {
@@ -243,10 +283,78 @@ body {
     width: 7%;
 }
 
+.languages .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.languages .html-dot {
+    background-color: #e34c26;
+}
+
+.languages .css-dot {
+    background-color: #264de4;
+}
+
+.languages .js-dot {
+    background-color: #f1e05a;
+}
+
 .readme {
+    flex: 3;
     background-color: #fff;
     border: 1px solid #e1e4e8;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 0; 
     margin-top: 20px;
+    text-align: center;
+    width: calc(100% - 405px);
+}
+
+.readme-header {
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+    background-color: #f6f8fa;
+    border-radius: 15px 15px 0 0; 
+    text-align: left;
+}
+
+.readme-content {
+    padding: 20px;
+}
+
+.add-readme-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-readme-btn:hover {
+    background-color: #218838;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f6f8fa;
+    border-top: 1px solid #e1e4e8;
+    
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
