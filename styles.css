@@ -11,7 +11,8 @@ body {
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 5rem;
+    justify-content: flex-start;
 }
 
 .header-content {
@@ -26,6 +27,7 @@ body {
 }
 
 .navbar {
+    text-align: center;
     background-color: #ffffff;
     padding: 10px 0;
     border-bottom: 1px solid #e1e4e8;
@@ -101,6 +103,7 @@ body {
 }
 
 .repo-content {
+    padding-top: 2rem;
     display: flex;
     gap: 20px;
 }
