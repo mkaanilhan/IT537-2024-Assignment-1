@@ -16,6 +16,11 @@ You are responsible for creating github repo landing page as much as possible. Y
 - Your branch name must be following format IT537_<YOUR_SCHOOL_ID> eg. IT537_27404
 
 
+## Screenshot
+
+![Screenshot of my project](./images/screenshot.png)
+
+
 ## Demo
 
 https://youtu.be/Ma7kSK1308M
