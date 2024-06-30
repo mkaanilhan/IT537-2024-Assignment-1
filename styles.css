@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.yan-yana-dizi{
+    margin-left: -900px;
+
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+   
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    border-color: #e1e4e8;
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.repo-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.repo-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.repo-header .public {
+    background-color: #e1e4e8;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.branch-info {
+    display: flex;
+    gap: 30px;
+    margin-left: 15px;
+    padding-top: 15px;
+    
+}
+
+.branch-info-last2 {
+    display: flex;
+    gap: 30px;
+    margin-left: 750px;
+}
+
+.repo-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.repo-actions button {
+    padding: 5px 10px;
+    background-color: #e1e4e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.repo-actions button:hover {
+    background-color: #d1d5da;
+}
+
+.add-file-btn, .code-btn {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-file-btn:hover, .code-btn:hover {
+    background-color: #218838;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content-body {
+    display: flex;
+    gap: 20px;
+}
+
+.file-list {
+    flex: 3;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    padding: 0px;
+    justify-content: space-between;
+    
+}
+
+
+
+.file-list-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #e1e4e8;
+    border-radius: 5px 5px 0 0;
+}
+
+.file-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.file-list ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 20px;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+
+.file-list ul li .file-date {
+    margin-right: 30px; /* file-info sınıfına sahip öğeler arasına boşluk bırakmak */
+}
+
+.file-list ul li span {
+    flex: 1;
+    
+}
+
+.repo-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative; 
+    top: -50px; 
+}
+
+.repo-details section {
+    
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+
+}
+
+.repo-details h3 {
+    margin: 0 0 10px 0;
+}
+
+.repo-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.repo-details ul li {
+    padding: 5px 0;
+}
+
+.repo-details a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.repo-details a:hover {
+    text-decoration: underline;
+}
+
+.languages .language-bar {
+    display: flex;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.languages .html-bar {
+    background-color: #e34c26;
+    width: 84.2%;
+}
+
+.languages .css-bar {
+    background-color: #264de4;
+    width: 15.7%;
+}
+
+.languages .js-bar {
+    background-color: #f1e05a;
+    width: 7%;
+}
+
+.readme {
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
