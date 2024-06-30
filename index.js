@@ -9,6 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
   info.forEach((item) => {
     el.appendChild(new TableItem(item.textOne, item.textTwo, item.textThree));
   });
-  el.appendChild(new TableItem());
 
 });
