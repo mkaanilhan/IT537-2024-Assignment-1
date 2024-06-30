@@ -1,21 +1,21 @@
 const info = [
   {
     icon: "folder",
-    textOne: ".github/workflows",
-    textTwo: "Add  deployment workflow file",
-    textThree: "5 months ago",
+    textOne: "assets",
+    textTwo: "refactored code",
+    textThree: "4 minutes ago",
   },
   {
     icon: "folder",
-    textOne: "app",
-    textTwo: "reverted entry.client.jsx",
-    textThree: "1 months ago",
+    textOne: "components",
+    textTwo: "Project Completed",
+    textThree: "10 minutes ago",
   },
   {
     icon: "folder",
-    textOne: "public",
+    textOne: "example.js",
     textTwo: "Add index.html",
-    textThree: "3 months ago",
+    textThree: "2 months ago",
   },
   {
     icon: "file",
@@ -31,9 +31,9 @@ const info = [
   },
   {
     icon: "file",
-    textOne: "gitignore",
-    textTwo: "Add LICENSE",
-    textThree: "5 months ago",
+    textOne: "responsive.html",
+    textTwo: "07.06 tailwind css",
+    textThree: "4 months ago",
   },
   {
     icon: "file",
