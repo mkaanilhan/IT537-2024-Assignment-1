@@ -1,8 +1,3 @@
-# Secreenshot
-
-<img src='assets/ss.png' />
-
-<br>
 
 # IT537 - Assignment 1
 
